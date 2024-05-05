@@ -43,7 +43,7 @@ CREATE TABLE Diagnostico (
     RemediosReceitados TEXT,
     Observacoes TEXT,
     IdCon INT,
-    FOREIGN KEY (IdCon) REFERENCES Consulta(IdCon)
+    FOREIGN KEY (IdCon) REFERENCES Consulta(IdCon) ON DELETE CASCADE
 );
 
 CREATE TABLE Agenda (
