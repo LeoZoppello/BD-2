@@ -29,18 +29,18 @@ INSERT INTO Agenda (DiaSemana, HoraInicio, HoraFim, CRM)
 VALUES  ('Segunda', '08:00:00', '18:00:00', 1),
 	('Terça', '09:00:00', '17:00:00', 2),
         ('Segunda', '09:30:00', '17:30:00', 3),
-		('Terça', '09:30:00', '17:30:00', 3),
-		('Quarta', '09:30:00', '17:30:00', 3),
-		('Quinta', '09:30:00', '17:30:00', 3),
-		('Sexta', '09:30:00', '17:30:00', 3);
+	('Terça', '09:30:00', '17:30:00', 3),
+	('Quarta', '09:30:00', '17:30:00', 3),
+	('Quinta', '09:30:00', '17:30:00', 3),
+	('Sexta', '09:30:00', '17:30:00', 3);
 
 -- ExerceEsp
 INSERT INTO ExerceEsp (CRM, IdEsp) 
 VALUES  (1, 1),
         (1, 2),
-		(1, 3),
+	(1, 3),
         (2, 1),
-		(3, 3);
+	(3, 3);
 
 -- Doenças
 INSERT INTO Doenca (NomeD) 
@@ -62,4 +62,4 @@ VALUES  ('Hidratação', 'Loção', 'Evitar exposição ao sol', 1),
 INSERT INTO Diagnostica (IdDiagnostico, IdDoenca) 
 VALUES  (1, 1),
         (2, 2),
-		(3, 6);
+	(3, 6);
